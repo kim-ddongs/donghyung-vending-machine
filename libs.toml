@@ -1,0 +1,9 @@
+[versions]
+arrow = "1.2.0"
+kotlin = "1.9.20"
+
+[libraries]
+arrow-core = { group = "io.arrow-kt", name = "arrow-core", version.ref = "arrow" }
+kotlin-test = { group = "org.jetbrains.kotlin", name = "kotlin-test", version.ref = "kotlin" }
+
+[plugins]
